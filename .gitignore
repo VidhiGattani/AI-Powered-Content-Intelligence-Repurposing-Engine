@@ -1,0 +1,140 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# CDK
+cdk.out/
+.cdk.staging/
+cdk.context.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# AWS
+.aws/
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.cache/
+
+# Documentation (temporary/debug files)
+*_FIXED.md
+*_DEPLOYED.md
+*_STATUS.md
+*_GUIDE.md
+*_SUMMARY.md
+*_CHECKPOINT.md
+*_COMPLETE.md
+*_SUCCESS.md
+*_WORKING.md
+*_FINAL.md
+*_NOW.md
+*_REFERENCE.md
+*_SIMPLE.md
+CHECK_*.md
+DIAGNOSE_*.md
+FIX_*.md
+QUICK_*.md
+REAL_*.md
+TEMPORARY_*.md
+CURRENT_*.md
+ENABLE_*.md
+PROJECT_*.md
+CONTENT_*.md
+BOTH_*.md
+FIXES_*.md
+UPLOAD_*.md
+GENERATION_*.md
+SUBMISSION_*.md
+RECOMMENDATION_*.md
+IMPROVED_*.md
+PDF_*.md
+STABLE_*.md
+BEDROCK_*.md
+SWITCH_*.md
+BEFORE_*.md
+START_*.md
+PREVIEW_*.md
+CUSTOMIZE_*.md
+MOCK_*.md
+CORS_*.md
+FRONTEND_*.md
+DIAGNOSE_*.md
+CLOUDFRONT_*.md
+DEPLOY_*.md
+API_*.md
+CODE_*.md
+LIVE_*.md
+TEST_*.md
+PRODUCTION_*.md
+BACKEND_*.md
+NEXT_*.md
+FINAL_*.md
+AWS_*.md
+
+# Test HTML files
+test-*.html
+
+# Kiro specs
+.kiro/
+
+# Pytest
+.pytest_cache/
+
+# Lambda Layer (AWS SDK - 45,000+ files)
+lambda_layer/

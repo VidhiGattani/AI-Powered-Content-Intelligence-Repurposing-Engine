@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream-100 text-neutral-800;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  }
+}
+
+@layer components {
+  /* Card styles with soft shadows */
+  .card {
+    @apply bg-white rounded-2xl p-6 shadow-soft border border-neutral-100;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply px-6 py-3 bg-neutral-900 text-white rounded-xl font-medium hover:bg-neutral-800 transition-all duration-200 shadow-sm hover:shadow-md flex items-center justify-center;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-neutral-700 rounded-xl font-medium hover:bg-neutral-50 transition-all duration-200 border border-neutral-200 flex items-center justify-center;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-300 hover:border-primary-500 text-primary-700 font-medium py-2 px-4 rounded-xl transition-colors duration-200;
+  }
+
+  /* Input styles */
+  .input {
+    @apply w-full px-4 py-3 border border-neutral-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-200 focus:border-primary-300 transition-all bg-white;
+  }
+
+  /* Stat card styles (like the reference) */
+  .stat-card-pink {
+    @apply bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-6 border border-primary-200;
+  }
+
+  .stat-card-blue {
+    @apply bg-gradient-to-br from-accent-100 to-accent-200 rounded-2xl p-6 border border-accent-200;
+  }
+
+  .stat-card-yellow {
+    @apply bg-gradient-to-br from-secondary-100 to-secondary-200 rounded-2xl p-6 border border-secondary-200;
+  }
+
+  .stat-card-purple {
+    @apply bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl p-6 border border-purple-200;
+  }
+
+  /* Content creation themed elements */
+  .content-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .content-badge-pink {
+    @apply bg-primary-100 text-primary-700 border border-primary-200;
+  }
+
+  .content-badge-blue {
+    @apply bg-accent-100 text-accent-700 border border-accent-200;
+  }
+
+  .content-badge-yellow {
+    @apply bg-secondary-100 text-secondary-700 border border-secondary-200;
+  }
+
+  .content-badge-purple {
+    @apply bg-purple-100 text-purple-700 border border-purple-200;
+  }
+
+  .content-badge-green {
+    @apply bg-green-100 text-green-700 border border-green-200;
+  }
+}
+
